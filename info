@@ -1,0 +1,8 @@
+Set-ExecutionPolicy RemoteSigned
+
+BACKEND:
+    npx express-generator backend
+
+FRONTEND
+    npm create vite@latest frontend -- --template react
+
